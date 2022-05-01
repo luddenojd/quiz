@@ -1,5 +1,15 @@
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      hej: "Välkommen till quiz",
+    };
+  },
+};
+</script>
 
 <style></style>
 
-<template></template>
+<template>
+  <h1>{{ hej }}</h1>
+</template>
