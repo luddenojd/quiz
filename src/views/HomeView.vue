@@ -1,7 +1,11 @@
 <template>
   <ul class="startMenu">
-    <li class="items">Start quizzing</li>
-    <li class="items">Highscores</li>
+    <li class="items">
+      <RouterLink class="routing" to="/register">Start quizzing</RouterLink>
+    </li>
+    <li class="items">
+      <RouterLink class="routing" to="/highscores">Highscores</RouterLink>
+    </li>
   </ul>
 </template>
 

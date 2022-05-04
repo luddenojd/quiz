@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongodb": "^4.5.0",
     "vue": "^3.2.31",
     "vue-router": "^4.0.14"
   },
@@ -13,5 +17,17 @@
     "dev": "vite",
     "preview": "vite preview"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "description": "",
+  "main": "vite.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luddenojd/quiz.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luddenojd/quiz/issues"
+  },
+  "homepage": "https://github.com/luddenojd/quiz#readme"
 }
